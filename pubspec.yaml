@@ -20,14 +20,10 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  google_sign_in: ^5.0.7
-  in_app_review: ^2.0.4
-  in_app_purchase: ^3.0.6
-  pinput: ^2.2.11
-  #pinput:
-  # git:
-  #  url: https://github.com/Tkko/Flutter_Pinput
-  #  ref: dev
+  # google_sign_in: ^5.0.7
+  # in_app_review: ^2.0.4
+  # in_app_purchase: ^3.0.6
+  # pinput: ^2.2.11
   flutter_redux: ^0.8.2
   redux_logging: ^0.5.0
   http: ^0.13.3
@@ -48,7 +44,7 @@ dependencies:
     git:
       url: https://github.com/theyakka/qr.flutter.git
   local_auth: ^1.1.6
-  sentry_flutter: ^6.9.1
+  sentry_flutter: ^6.5.1
   image_picker: ^0.8.3+1
   flutter_colorpicker: ^1.0.3
   flutter_json_viewer: ^1.0.1
@@ -80,18 +76,12 @@ dependencies:
   msal_js: ^2.14.0
   sign_in_with_apple: ^4.0.0
   window_manager: ^0.2.7
-  # bitsdojo_window: ^0.1.2
+  # bitsdojo_window: ^0.1.2  
   intl_phone_field: ^3.1.0
   flutter_staggered_grid_view: ^0.6.2
   # quick_actions: ^0.2.1
   # idb_shim: ^1.11.1+1
 
-dependency_overrides:
-  photo_view:
-    git:
-      url: https://github.com/bluefireteam/photo_view
-      ref: master
-      
 dev_dependencies:
   flutter_driver:
     sdk: flutter
