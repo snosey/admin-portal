@@ -26,7 +26,7 @@ const String kSourceCodeFrontend =
     'https://github.com/invoiceninja/admin-portal';
 const String kSourceCodeFrontendSDK = 'https://pub.dev/packages/invoiceninja';
 
-const String kPlayStoreAppId = 'com.invoiceninja.app';
+const String kPlayStoreAppId = 'com.dinnova.invoiceninja';
 const String kAppStoreAppId = 'id1503970375';
 
 const String kMicrosoftAppStoreId = '9n3f2bbcfdr6';
@@ -35,7 +35,7 @@ const String kAppleStoreUrl =
 const String kGoogleStoreUrl =
     'https://play.google.com/store/apps/details?id=$kPlayStoreAppId';
 const String kGoogleFDroidUrl =
-    'https://f-droid.org/packages/com.invoiceninja.app';
+    'https://f-droid.org/packages/com.dinnova.invoiceninja';
 const String kMacOSUrl = 'https://apps.apple.com/app/id1503970375';
 const String kLinuxUrl = 'https://snapcraft.io/invoiceninja';
 const String kWindowsUrl =

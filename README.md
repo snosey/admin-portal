@@ -9,8 +9,8 @@ Client application for [Invoice Ninja](https://github.com/invoiceninja/invoiceni
 
 #### Mobile Apps
 - [iOS](https://apps.apple.com/app/id1503970375?platform=iphone)
-- [Android](https://play.google.com/store/apps/details?id=com.invoiceninja.app)
-- [F-Droid](https://f-droid.org/en/packages/com.invoiceninja.app)
+- [Android](https://play.google.com/store/apps/details?id=com.dinnova.invoiceninja)
+- [F-Droid](https://f-droid.org/en/packages/com.dinnova.invoiceninja)
 
 <p align="center">
     <img src="https://github.com/invoiceninja/flutter-mobile/blob/master/samples/screenshots/1.png" alt="Dashboard" width="200"/>
