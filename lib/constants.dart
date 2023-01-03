@@ -12,7 +12,7 @@ const String kSiteUrl = 'https://invoiceninja.com';
 const String kAppProductionUrl = 'https://invoicing.co';
 const String kAppStagingUrl = 'https://staging.invoicing.co';
 const String kAppLargeTestUrl = 'https://testv5.invoicing.co';
-const String kAppDemoUrl = 'https://demo.invoiceninja.com';
+const String kAppDemoUrl = 'http://invoice.d-innova.com/api/v1';
 const String kWhiteLabelUrl =
     'https://app.invoiceninja.com/buy_now/?account_key=AsFmBAeLXF0IKf7tmi0eiyZfmWW9hxMT&product_id=3';
 const String kPrivacyPolicyURL = 'https://www.invoiceninja.com/privacy-policy';
@@ -123,7 +123,7 @@ const kProductPlans = [
 const double kMobileLayoutWidth = 700;
 const double kMobileDialogPadding = 12;
 const double kDrawerWidthMobile = 272;
-const double kDrawerWidthDesktop = 210;
+const double kDrawerWidthDesktop = 250;
 const double kTableColumnGap = 16;
 const double kTopBottomBarHeight = 50;
 const double kDialogWidth = 400;

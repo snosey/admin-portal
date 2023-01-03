@@ -101,7 +101,7 @@ class DesignScreen extends StatelessWidget {
                 Icons.add,
                 color: Colors.white,
               ),
-              tooltip: localization.newDesign,
+              tooltip: localization.design,
             )
           : null,
     );

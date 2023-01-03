@@ -15,7 +15,8 @@ import 'package:invoiceninja_flutter/utils/formatting.dart';
 
 class WebUtils {
   static String get apiUrl {
-    var url = window.location.href;
+    return 'http://invoice.d-innova.com/api/v1';
+  /*  var url = window.location.href;
 
     if (url.contains('?')) {
       url = url.split('?')[0];
@@ -25,7 +26,7 @@ class WebUtils {
       url = url.split('#')[0];
     }
 
-    return formatApiUrl(url);
+    return formatApiUrl(url);*/
   }
 
   static String get browserUrl => cleanApiUrl(apiUrl);
