@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Invoice Ninja
+Name=Invoice Dinnova
 Comment=Online Invoicing
 Exec=invoiceninja
 Icon=${SNAP}/meta/gui/invoiceninja.png

@@ -208,7 +208,7 @@ void main({bool isTesting = false}) async {
   if (isWindows()) {
     doWhenWindowReady(() {
       final win = appWindow;
-      win.title = 'Invoice Ninja';
+      win.title = 'Invoice Dinnova';
       win.show();
     });
   }

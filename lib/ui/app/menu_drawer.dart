@@ -683,9 +683,9 @@ class _MenuDrawerState extends State<MenuDrawer> {
                   child: AppBorder(
                     isTop: true,
                     child: Align(
-                      child: state.isMenuCollapsed
+                      child:SidebarFooterCollapsed()/* state.isMenuCollapsed
                           ? SidebarFooterCollapsed()
-                          : SidebarFooter(),
+                          : SidebarFooter()*/,
                       alignment: Alignment(0, 1),
                     ),
                   ),
@@ -1238,7 +1238,7 @@ class SidebarFooterCollapsed extends StatelessWidget {
             )
           : IconButton(
               icon: Icon(
-                Icons.chevron_right,
+                state.isMenuCollapsed? Icons.chevron_right:Icons.chevron_left,
                 color: state.isUpdateAvailable ? state.accentColor : null,
               ),
               tooltip:
@@ -1291,7 +1291,7 @@ void _showAbout(BuildContext context) async {
   final state = store.state;
   final localization = AppLocalization.of(context);
 
-  final appLegalese = '© ${DateTime.now().year} Invoice Ninja';
+  final appLegalese = '© ${DateTime.now().year} Invoice Dinnova';
   final apppIcon = Image.asset(
     'assets/images/icon.png',
     width: 40.0,
@@ -1308,7 +1308,7 @@ void _showAbout(BuildContext context) async {
                 child: Text(localization.viewLicenses.toUpperCase()),
                 onPressed: () => showLicensePage(
                   context: context,
-                  applicationName: 'Invoice Ninja v5',
+                  applicationName: 'Invoice Dinnova v5',
                   applicationIcon: apppIcon,
                   applicationLegalese: appLegalese,
                   applicationVersion: state.appVersion,
@@ -1330,7 +1330,7 @@ void _showAbout(BuildContext context) async {
                       child: apppIcon,
                     ),
                     title: Text(
-                      'Invoice Ninja',
+                      'Invoice Dinnova',
                       style: Theme.of(context).textTheme.subtitle1,
                     ),
                     subtitle: Text(state.appVersion),

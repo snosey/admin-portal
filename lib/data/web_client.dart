@@ -253,7 +253,7 @@ void _checkResponse(http.Response response) {
   if (response.statusCode >= 500) {
     throw _parseError(response.statusCode, response.body);
   } else if (serverVersion == null) {
-    throw 'Error: please check that Invoice Ninja v5 is installed on the server';
+    throw 'Error: please check that Invoice Dinnova v5 is installed on the server';
   } else if (Version.parse(kClientVersion) < Version.parse(minClientVersion)) {
     throw 'Error: client not supported, please update to the latest version [Current v$kClientVersion < Minimum v$minClientVersion]';
   } else if (Version.parse(serverVersion) < Version.parse(kMinServerVersion)) {

@@ -74,7 +74,7 @@ class _LoginState extends State<LoginView> {
   List<String> _loginTypes;
 
   bool _tokenLogin = false;
-  bool _isSelfHosted = false;
+  bool _isSelfHosted = true;
   bool _createAccount = false;
 
   bool _recoverPassword = false;
@@ -398,8 +398,8 @@ class _LoginState extends State<LoginView> {
                         SizedBox(height: 20),
                         if (!_recoverPassword &&
                             (!kIsWeb || !kReleaseMode)) ...[
-                          RuledText(localization.selectPlatform),
-                          Padding(
+                    /*      RuledText(localization.selectPlatform),*/
+                     /*     Padding(
                             padding: const EdgeInsets.only(bottom: 20),
                             child: AppToggleButtons(
                               tabLabels: [
@@ -418,7 +418,7 @@ class _LoginState extends State<LoginView> {
                                 });
                               },
                             ),
-                          ),
+                          ),*/
                         ],
                         if (!_isSelfHosted && _loginTypes.length > 1) ...[
                           RuledText(localization.selectMethod),
@@ -461,7 +461,7 @@ class _LoginState extends State<LoginView> {
                                   newPassword: _createAccount,
                                   onSavePressed: (_) => _submitForm(),
                                 ),
-                              if (!_createAccount && !_recoverPassword)
+                   /*           if (!_createAccount && !_recoverPassword)
                                 DecoratedFormField(
                                   controller: _oneTimePasswordController,
                                   label:
@@ -488,7 +488,7 @@ class _LoginState extends State<LoginView> {
                                   controller: _secretController,
                                   validate: false,
                                   onSavePressed: (_) => _submitForm(),
-                                ),
+                                ),*/
                               if (_createAccount)
                                 Padding(
                                   padding: EdgeInsets.only(top: 10),
@@ -773,7 +773,7 @@ class _LoginState extends State<LoginView> {
                           ),
                         ),
                       ),
-                    if (!_recoverPassword)
+                  /*  if (!_recoverPassword)
                       if (kIsWeb)
                         InkWell(
                           onTap: () =>
@@ -806,7 +806,7 @@ class _LoginState extends State<LoginView> {
                               ],
                             ),
                           ),
-                        )
+                        )*/
                   ]
                 ],
               ),

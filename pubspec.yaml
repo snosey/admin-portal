@@ -1,5 +1,5 @@
 name: invoiceninja_flutter
-description: Client for Invoice Ninja
+description: Client for Invoice Dinnova
 version: 5.0.104+104
 homepage: https://invoiceninja.com
 documentation: https://invoiceninja.github.io
@@ -111,8 +111,8 @@ flutter:
         - asset: assets/google_fonts/Roboto-Regular.ttf
 
 msix_config:
-  display_name: Invoice Ninja
-  publisher_display_name: Invoice Ninja
+  display_name: Invoice Dinnova
+  publisher_display_name: Invoice Dinnova
   identity_name: InvoiceNinja.InvoiceNinja
   publisher: CN=2B7AA393-06A0-46F5-AF85-1917142440C3
   architecture: x64

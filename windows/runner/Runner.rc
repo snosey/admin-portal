@@ -89,11 +89,11 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "Invoice Ninja" "\0"
-            VALUE "FileDescription", "Invoice Ninja" "\0"
+            VALUE "CompanyName", "Invoice Dinnova" "\0"
+            VALUE "FileDescription", "Invoice Dinnova" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "invoiceninja" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2021 Invoice Ninja. All rights reserved." "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2021 Invoice Dinnova. All rights reserved." "\0"
             VALUE "OriginalFilename", "invoiceninja.exe" "\0"
             VALUE "ProductName", "invoiceninja" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"

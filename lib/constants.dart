@@ -7,12 +7,12 @@ class Constants {
 const String kClientVersion = '5.0.104';
 const String kMinServerVersion = '5.0.4';
 
-const String kAppName = 'Invoice Ninja';
+const String kAppName = 'Invoice Dinnova';
 const String kSiteUrl = 'https://invoiceninja.com';
 const String kAppProductionUrl = 'https://invoicing.co';
 const String kAppStagingUrl = 'https://staging.invoicing.co';
 const String kAppLargeTestUrl = 'https://testv5.invoicing.co';
-const String kAppDemoUrl = 'http://invoice.d-innova.com/api/v1';
+const String kAppDemoUrl = 'https://invoice-dinnova.azurewebsites.net/api/v1';
 const String kWhiteLabelUrl =
     'https://app.invoiceninja.com/buy_now/?account_key=AsFmBAeLXF0IKf7tmi0eiyZfmWW9hxMT&product_id=3';
 const String kPrivacyPolicyURL = 'https://www.invoiceninja.com/privacy-policy';

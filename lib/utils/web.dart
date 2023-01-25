@@ -15,7 +15,7 @@ import 'package:invoiceninja_flutter/utils/formatting.dart';
 
 class WebUtils {
   static String get apiUrl {
-    return 'http://invoice.d-innova.com/api/v1';
+    return 'https://invoice-dinnova.azurewebsites.net/api/v1';
   /*  var url = window.location.href;
 
     if (url.contains('?')) {

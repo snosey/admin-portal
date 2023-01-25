@@ -1,6 +1,6 @@
-# Invoice Ninja
+# Invoice Dinnova
 
-Client application for [Invoice Ninja](https://github.com/invoiceninja/invoiceninja).
+Client application for [Invoice Dinnova](https://github.com/invoiceninja/invoiceninja).
 
 #### Desktop Apps
 - [Windows](https://apps.microsoft.com/store/detail/invoice-ninja/9N3F2BBCFDR6)
@@ -48,7 +48,7 @@ Client application for [Invoice Ninja](https://github.com/invoiceninja/invoiceni
 
     `flutter run`
 
-Note: if you don't have an Invoice Ninja backend setup you can test the app with these credentials:
+Note: if you don't have an Invoice Dinnova backend setup you can test the app with these credentials:
 
 - Email: `demo@invoiceninja.com`
 - Password: `Password0`
