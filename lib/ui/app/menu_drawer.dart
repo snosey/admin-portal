@@ -683,9 +683,9 @@ class _MenuDrawerState extends State<MenuDrawer> {
                   child: AppBorder(
                     isTop: true,
                     child: Align(
-                      child:SidebarFooterCollapsed()/* state.isMenuCollapsed
+                      child:  state.isMenuCollapsed
                           ? SidebarFooterCollapsed()
-                          : SidebarFooter()*/,
+                          : SidebarFooter(),
                       alignment: Alignment(0, 1),
                     ),
                   ),
